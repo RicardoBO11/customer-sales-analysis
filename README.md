@@ -1,22 +1,22 @@
-Customer Sales Analysis Project
-Business Problem
+## Customer Sales Analysis Project
+## Business Problem
 
 Companies need to understand sales performance, customer behavior, and product demand to make better business decisions.
 
 --
 
-Objective
+## Objective
 
 Analyze transactional sales data to identify:
 
-Revenue trends
-Top-selling products
-Customer purchasing behavior
-Sales distribution by country
+- Revenue trends
+- Top-selling products
+- Customer purchasing behavior
+- Sales distribution by country
 
 --
 
-Data Cleaning
+## Data Cleaning
 
 Performed using SQL:
 
@@ -25,22 +25,22 @@ Performed using SQL:
 - Removed invalid UnitPrice (≤ 0)
 
 -- 
-Created a clean dataset:
+## Created a clean dataset:
 
 CREATE TABLE clean_sales AS ...
 
 -- 
 
-Key Analysis
+## Key Analysis
 
 - Total Revenue
 - Top 10 Products by Quantity Sold
--Revenue by Country
+- Revenue by Country
 - Top Customers by Spending
 
 -- 
 
-Key Insights
+## Key Insights
 
 
 - The majority of revenue comes from a small group of products
@@ -49,14 +49,15 @@ Key Insights
 
 -- 
 
-Tools Used
+## Tools Used
+
 - SQL (SQLite)
 - Visual Studio Code
 - Tableau
 
 -- 
 
-Project Structure
+## Project Structure
 
 SQL_analysis/
 ├── exploration.sql
@@ -66,7 +67,8 @@ SQL_analysis/
 └── README.md
 
 --
-How to Run
+
+## How to Run
 - Open database in VS Code
 - Run cleaning.sql
 - Run insights.sql
