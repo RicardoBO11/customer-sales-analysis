@@ -94,7 +94,7 @@ This dashboard provides an overview of revenue distribution across different mar
 - Improve data quality by addressing missing or undefined categories
 - Develop localized strategies to boost performance in underperforming markets
 
-![Dashboard](dasboard_Top_Markets_by_Revenue.png)
+![Dashboard](Dasboard_Top_Markets_by_Revenue.png)
 
 ## How to Run
 - Open the database in VS Code
